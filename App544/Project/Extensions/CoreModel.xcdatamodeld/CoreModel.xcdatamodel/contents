@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ExModel" representedClassName="ExModel" syncable="YES" codeGenerationType="class">
+        <attribute name="exItem" optional="YES" attributeType="String"/>
+        <attribute name="exName" optional="YES" attributeType="String"/>
+        <attribute name="exProj" optional="YES" attributeType="String"/>
+        <attribute name="exSum" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProjModel" representedClassName="ProjModel" syncable="YES" codeGenerationType="class">
+        <attribute name="prBudget" optional="YES" attributeType="String"/>
+        <attribute name="prDescr" optional="YES" attributeType="String"/>
+        <attribute name="prName" optional="YES" attributeType="String"/>
+        <attribute name="prPhoto" optional="YES" attributeType="String"/>
+    </entity>
+</model>
