@@ -40,10 +40,10 @@ struct Reviews: View {
                         
                         Spacer()
                         
-                        RoundedRectangle(cornerRadius: 5).fill(Color("prim").opacity(0.5))
+                        RoundedRectangle(cornerRadius: 5).fill(Color("prim2").opacity(0.5))
                             .frame(width: 45, height: 5)
                         
-                        RoundedRectangle(cornerRadius: 5).fill(Color("prim"))
+                        RoundedRectangle(cornerRadius: 5).fill(Color("prim2"))
                             .frame(width: 45, height: 5)
 
                         Spacer()
@@ -55,11 +55,11 @@ struct Reviews: View {
                             
                         }, label: {
                             
-                            Text("Next")
-                                .foregroundColor(.white)
+                            Text("Далее")
+                                .foregroundColor(.black)
                                 .font(.system(size: 15, weight: .regular))
                                 .frame(width: 150, height: 50)
-                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim")))
+                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim2")))
                         })
                     }
                     .padding(.bottom)

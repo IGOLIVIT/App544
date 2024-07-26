@@ -27,7 +27,7 @@ struct Not: View {
             
             VStack {
                 
-                Text("Don't miss anything")
+                Text("Не пропустите ничего")
                     .foregroundColor(.white)
                     .font(.system(size: 30, weight: .bold))
                     .multilineTextAlignment(.center)
@@ -43,12 +43,12 @@ struct Not: View {
                             
                         }, label: {
                             
-                            Text("Enable notifications")
-                                .foregroundColor(.white)
+                            Text("Включить уыедомления")
+                                .foregroundColor(.black)
                                 .font(.system(size: 15, weight: .regular))
                                 .frame(maxWidth: .infinity)
                                 .frame(height: 50)
-                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim")))
+                                .background(RoundedRectangle(cornerRadius: 15).fill(Color("prim2")))
                         })
                     .padding(.bottom)
                 }
